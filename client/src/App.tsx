@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ProductList from "./pages/ProductList";
 import Cart from "./pages/Cart";
-import Checkout from "./pages/CheckOut";
+import Checkout from "./pages/Checkout";
 
 function App() {
   return (

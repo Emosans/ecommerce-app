@@ -4,7 +4,7 @@
     "name": "Wireless Headphones",
     "description": "Noise-cancelling over-ear headphones with 20 hours of battery life.",
     "price": 99.99,
-    "imageUrl": "https://example.com/images/wireless-headphones.jpg",
+    "imageUrl": "http://localhost:3000/images/wireless.jpg",
     "stock": 25
   },
   {
@@ -12,7 +12,7 @@
     "name": "Smartphone",
     "description": "Latest model smartphone with a stunning display and high-performance camera.",
     "price": 799.99,
-    "imageUrl": "https://example.com/images/smartphone.jpg",
+    "imageUrl": "http://localhost:3000/images/phones.jpg",
     "stock": 15
   },
   {
@@ -20,7 +20,7 @@
     "name": "Gaming Laptop",
     "description": "High-performance laptop for gaming and productivity with 16GB RAM and a powerful GPU.",
     "price": 1299.99,
-    "imageUrl": "https://example.com/images/gaming-laptop.jpg",
+    "imageUrl": "http://localhost:3000/images/laptop.jpg",
     "stock": 10
   },
   {
@@ -28,7 +28,7 @@
     "name": "Bluetooth Speaker",
     "description": "Portable Bluetooth speaker with impressive sound quality and 12 hours of battery life.",
     "price": 49.99,
-    "imageUrl": "https://example.com/images/bluetooth-speaker.jpg",
+    "imageUrl": "http://localhost:3000/images/speaker.jpg",
     "stock": 50
   },
   {
@@ -36,7 +36,15 @@
     "name": "Smartwatch",
     "description": "Stylish smartwatch with fitness tracking and notification features.",
     "price": 199.99,
-    "imageUrl": "https://example.com/images/smartwatch.jpg",
+    "imageUrl": "http://localhost:3000/images/smartwatch.jpg",
+    "stock": 30
+  },
+  {
+    "id": 6,
+    "name": "Hard Disks",
+    "description": "Compact, High speed and Portable hard disks.",
+    "price": 199.99,
+    "imageUrl": "http://localhost:3000/images/harddisk.jpg",
     "stock": 30
   }
 ]

@@ -3,7 +3,7 @@ import React from "react";
 interface CartItemProps {
   id: number;
   name: string;
-  price: number;
+  price : number;
   quantity: number;
   removeFromCart: (productId: number) => void;
 }

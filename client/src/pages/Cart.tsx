@@ -1,16 +1,10 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import CartItem from "../components/CartItem";
-
-interface CartItem {
-  id: number;
-  name: string;
-  price: number;
-  quantity: number;
-}
+import { CartItemInfo } from "../types";
 
 function Cart() {
-  const [cartItems, setCartItems] = useState<CartItem[]>([]);
+  const [cartItems, setCartItems] = useState<CartItemInfo[]>([]);
 
   useEffect(() => {
     axios
